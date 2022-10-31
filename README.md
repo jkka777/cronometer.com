@@ -1,5 +1,6 @@
 
 <h1>Cronometer.com clone</h1>
+cronometer is an application where one can track the nutrition and health wellness. We can register our food intake, measure calories and control the diet. This clone features Signup, Login, Blogs, Support, Food tracking.
 
 <h2>This application features the following.</h2>
 
