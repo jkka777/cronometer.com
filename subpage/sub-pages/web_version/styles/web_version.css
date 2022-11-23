@@ -147,7 +147,7 @@
 .container {
     /* border: 1px solid #ff763f; */
     margin: auto;
-    width: 1160px;
+    width: 100%;
     height: 1037px;
     margin-bottom: 80px;
 }
@@ -291,3 +291,124 @@
     width: 100%;
 }
 
+/* medium screen styling */
+
+@media all and (min-width:768px) and (max-width:1023px) {
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .manual_logo {
+        width: 50%;
+    }
+
+    .manual_logo>img {
+        width: 40%;
+        height: 90%;
+    }
+
+    .request>div>a {
+        font-size: larger;
+    }
+
+    .sub_navbar {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .header {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header>h1 {
+        font-weight: 600;
+    }
+
+    .tree {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        /* border: 1px solid black; */
+    }
+}
+
+/* small screen styling */
+
+@media all and (min-width:321px) and (max-width:767px) {
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .manual_logo {
+        width: 50%;
+    }
+
+    .request>div>a {
+        font-size: larger;
+    }
+
+    .sub_navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+
+    #input_sub_search {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .header {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .header>h1 {
+        width: 50%;
+        font-weight: 400;
+    }
+
+    .header>p {
+        width: 50%;
+        font-size: smaller;
+        font-weight: 200;
+    }
+
+    .tree {
+        width: 90%;
+        margin: auto;
+        display: inline-block;
+        margin-left: 40px;
+        /* border: 1px solid black; */
+    }
+}
