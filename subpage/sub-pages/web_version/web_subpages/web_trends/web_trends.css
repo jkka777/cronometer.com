@@ -394,3 +394,60 @@ div>ul>li:hover {
     height: 23px;
     gap: 10px;
 }
+
+/* medium screens */
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .sub_navbar {
+        width: 100%;
+    }
+
+    .sections {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+/* small screens */
+
+@media all and (min-width: 321px) and (max-width: 767px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .sub_navbar {
+        width: 100%;
+    }
+
+    .path {
+        width: 50%;
+    }
+
+    #input_sub_search {
+        display: none;
+    }
+
+    .sections {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .author {
+        display: none;
+    }
+
+    .article_body {
+        width: 100%;
+    }
+
+}
